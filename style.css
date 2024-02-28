@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffefc2;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68deg, rgb(0, 0, 0), rgb(70, 70, 70))
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    max-width: 72px;
+    border-radius: 100%;
+}
+.logo2{
+    max-width: 72px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+.header-menu{
+    display: flex;
+    gap:120px;
+    cursor: pointer;
+}
+.header-menu-item{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.content{
+    border-top: 0.4px solid #ffefc2;
+
+    margin-bottom: 48px;
+}
+.main-content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-content-text-title{
+    font-weight: 600;
+    font-size: 64px;
+    color: #ffefc2;
+}
+
+.main-content-text-subtitle{
+    font-weight: 400;
+    font-size: 24px;
+}
+.main-content-text-button{
+    background-color: #f7de9a;
+    color: black;
+    width: 300px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.main-content-text-button:hover{
+    background-color: #ffefc2;
+    transition: 0.3s;
+}
+.main-content-text-button:active{
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+.main-content-text-image{
+    width: 450px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.secondary-content{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 50px;
+
+}
+.secondary-content-title{
+    border-top: 0.4px solid #ffefc2;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.secondary-content-p{
+    font-weight: 300;
+    font-size: 18px;
+}
+.footer{
+    padding: 32px;
+    border-top: 0.4px solid #ffefc2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.my-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
